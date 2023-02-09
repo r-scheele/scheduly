@@ -1,0 +1,58 @@
+# Project information
+site_name: Policy Editor Documentation
+# defeine TOC or order of website-
+nav:
+  - Getting Started:
+    - Introduction: 'index.md'
+    - Features: 'features.md'
+    - Models: 'models.md'
+
+site_author: Abdulrahman Olamilekan
+
+# Repository
+repo_name: r-scheele/scheduly
+repo_url: https://github.com/r-scheele/scheduly
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: teal
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: teal
+      accent: lime    
+
+
+
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  
+  
+plugins:
+  - search
+

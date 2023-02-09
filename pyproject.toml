@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "scheduly"
+version = "0.1.0"
+description = "AWS EC2 Instance Scheduler is a tool that allows you to schedule the start and stop times of your EC2 instances. This allows you to save money by only running your instances when they are needed, and to automate the process of starting and stopping instances."
+authors = ["r-scheele <abdulrahmanolamilekan88@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mkdocs-material = "^9.0.12"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
